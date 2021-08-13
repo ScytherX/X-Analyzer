@@ -12,7 +12,7 @@ body {
     position  : relative;
     width     : 1440px;
     height    : 1024px;
-    background: #363636;
+    background: #323232;
 }
 
 #explorer {
@@ -26,9 +26,9 @@ body {
 
 #numbersbar {
     position  : absolute;
-    width     : 21px;
+    width     : 31px;
     height    : 97%;
-    left      : 317px;
+    left      : 329px;
     top       : 28px;
     background: #282828;
     text-align: center;
@@ -38,7 +38,7 @@ body {
     position   : relative;
     width      : 14px;
     height     : 736px;
-    left       : 323px;
+    left       : 9px;
     top        : 27px;
     font-family: Roboto;
     font-style : normal;
@@ -46,7 +46,7 @@ body {
     font-size  : 12px;
     line-height: 16px;
     text-align : center;
-    color      : #FFFFFF;
+    color      : #ffffff;
 }
 
 #output {
@@ -59,11 +59,11 @@ body {
 }
 
 #console {
-    position: absolute;
-    width   : 2235px;
-    height  : 200px;
-    left    : 316px;
-    top     : 1053.5px;
+    position  : absolute;
+    width     : 2230px;
+    height    : 200px;
+    left      : 316px;
+    top       : 1053.5px;
     background: #363636;
     z-index   : 3;
 }
@@ -83,4 +83,136 @@ body {
     align-items: center;
     text-align : center;
     color      : #FFFFFF;
+}
+
+#toolbar {
+    position  : absolute;
+    width     : 2180px;
+    height    : 34px;
+    left      : 361px;
+    top       : 31px;
+    background: #363636;
+}
+
+#save {
+    position: absolute;
+    width   : 11px;
+    height  : 13px;
+    left    : 1367px;
+    top     : 41px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    
+}
+/* ///////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////// */
+/* ///////////////////////////////////////////////////////////////////// */
+
+@media (max-height: 1080px) {
+    
+    #upbar {
+        position  : absolute;
+        width     : 201.5vh;
+        height    : 31px;
+        left      : 0px;
+        top       : 0px;
+        background: #282828;
+    
+    }
+    
+    #toolbar {
+        position  : absolute;
+        width     : 163vh;
+        height    : 34px;
+        left      : 361px;
+        top       : 31px;
+        background: #363636;
+    }
+
+    body {
+        position  : relative;
+        width     : 1440px;
+        height    : 1024px;
+        background: #323232;
+    }
+    
+    #explorer {
+        position  : absolute;
+        width     : 25%;
+        height    : 1250px;
+        left      : 0px;
+        top       : 31px;
+        background: #323232;
+    }
+    
+    #numbersbar {
+        position  : absolute;
+        width     : 31px;
+        height    : 77%;
+        left      : 329px;
+        top       : 28px;
+        background: #282828;
+        text-align: center;
+    }
+    
+    #numberi {
+        position   : relative;
+        width      : 14px;
+        height     : 736px;
+        left       : 9px;
+        top        : 27px;
+        font-family: Roboto;
+        font-style : normal;
+        font-weight: normal;
+        font-size  : 12px;
+        line-height: 16px;
+        text-align : center;
+        color      : #ffffff;
+    }
+    
+    #output {
+        position  : absolute;
+        width     : 1570px;
+        height    : 257px;
+        left      : 317px;
+        top       : 65%;
+        background: #282828;
+    }
+    
+    #console {
+        position  : absolute;
+        width     : 1570px;
+        height    : 200px;
+        left      : 316px;
+        top       : 68%;
+        background: #363636;
+        z-index   : 3;
+    }
+    
+    #idtex {
+        position   : absolute;
+        width      : 53px;
+        height     : 31px;
+        left       : 96vh;
+        top        : 0px;
+        font-family: Roboto;
+        font-style : normal;
+        font-weight: normal;
+        font-size  : 12px;
+        line-height: 14px;
+        display    : flex;
+        align-items: center;
+        text-align : center;
+        color      : #FFFFFF;
+    }
+    
+    #save {
+        position: absolute;
+        width   : 11px;
+        height  : 13px;
+        left    : 1367px;
+        top     : 41px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        
+    }
+    
 }
