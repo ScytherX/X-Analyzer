@@ -1,0 +1,69 @@
+#upbar {
+    position  : absolute;
+    width     : 196vh;
+    height    : 31px;
+    left      : 0px;
+    top       : 0px;
+    background: #282828;
+
+}
+
+body {
+    position  : relative;
+    width     : 1440px;
+    height    : 1024px;
+    background: #363636;
+}
+
+#explorer {
+    position  : absolute;
+    width     : 25%;
+    height    : 1240px;
+    left      : 0px;
+    top       : 31px;
+    background: #323232;
+}
+
+#numbers {
+    position: absolute;
+    width   : 31px;
+    height  : 97%;
+    left    : 317px;
+    top     : 28px;
+    background: #282828;
+}
+
+#output{
+    position: absolute;
+    width: 1962px;
+    height: 245px;
+    left: 317px;
+    top: 100%;
+    background: #282828;
+}
+
+/*#console {
+    position: absolute;
+    width   : 1127px;
+    height  : 245px;
+    left    : 313px;
+    top     : 100%;
+    background: #363636;
+}*/
+
+#idtex {
+    position   : absolute;
+    width      : 53px;
+    height     : 31px;
+    left       : 96vh;
+    top        : 0px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 12px;
+    line-height: 14px;
+    display    : flex;
+    align-items: center;
+    text-align : center;
+    color      : #FFFFFF;
+}
