@@ -111,26 +111,26 @@ body {
     
     #upbar {
         position  : absolute;
-        width     : 201.5vh;
-        height    : 31px;
-        left      : 0px;
-        top       : 0px;
+        width     : 132.2%;
+        height    : 6%;
+        left      : 0%;
+        top       : 0%;
         background: #282828;
     
     }
     
     #toolbar {
         position  : absolute;
-        width     : 163vh;
-        height    : 34px;
-        left      : 361px;
-        top       : 31px;
+        width     : 107%;
+        height    : 3%;
+        left      : 25.2%;
+        top       : 3%;
         background: #363636;
     }
 
     body {
         position  : relative;
-        width     : 1440px;
+        width     : 75%;
         height    : 1024px;
         background: #323232;
     }
@@ -138,18 +138,18 @@ body {
     #explorer {
         position  : absolute;
         width     : 25%;
-        height    : 1250px;
-        left      : 0px;
-        top       : 31px;
+        height    : 25%;
+        left      : 0%;
+        top       : 3%;
         background: #323232;
     }
     
     #numbersbar {
         position  : absolute;
-        width     : 31px;
+        width     : 2%;
         height    : 77%;
-        left      : 329px;
-        top       : 28px;
+        left      : 23.2%;
+        top       : 3%;
         background: #282828;
         text-align: center;
     }
@@ -157,9 +157,9 @@ body {
     #numberi {
         position   : relative;
         width      : 14px;
-        height     : 736px;
-        left       : 9px;
-        top        : 27px;
+        height     : 65%;
+        left       : 7px;
+        top        : 5%;
         font-family: Roboto;
         font-style : normal;
         font-weight: normal;
@@ -171,7 +171,7 @@ body {
     
     #output {
         position  : absolute;
-        width     : 1570px;
+        width     : 110.1%;
         height    : 257px;
         left      : 317px;
         top       : 65%;
@@ -180,9 +180,9 @@ body {
     
     #console {
         position  : absolute;
-        width     : 1570px;
-        height    : 200px;
-        left      : 316px;
+        width     : 110.12%;
+        height    : 19.5%;
+        left      : 22.15%;
         top       : 68%;
         background: #363636;
         z-index   : 3;
@@ -216,3 +216,4 @@ body {
     }
     
 }
+
