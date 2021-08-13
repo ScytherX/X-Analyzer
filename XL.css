@@ -18,38 +18,55 @@ body {
 #explorer {
     position  : absolute;
     width     : 25%;
-    height    : 1240px;
+    height    : 1250px;
     left      : 0px;
     top       : 31px;
     background: #323232;
 }
 
-#numbers {
-    position: absolute;
-    width   : 31px;
-    height  : 97%;
-    left    : 317px;
-    top     : 28px;
+#numbersbar {
+    position  : absolute;
+    width     : 21px;
+    height    : 97%;
+    left      : 317px;
+    top       : 28px;
+    background: #282828;
+    text-align: center;
+}
+
+#numberi {
+    position   : relative;
+    width      : 14px;
+    height     : 736px;
+    left       : 323px;
+    top        : 27px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 12px;
+    line-height: 16px;
+    text-align : center;
+    color      : #FFFFFF;
+}
+
+#output {
+    position  : absolute;
+    width     : 2225px;
+    height    : 257px;
+    left      : 317px;
+    top       : 100%;
     background: #282828;
 }
 
-#output{
+#console {
     position: absolute;
-    width: 1962px;
-    height: 245px;
-    left: 317px;
-    top: 100%;
-    background: #282828;
-}
-
-/*#console {
-    position: absolute;
-    width   : 1127px;
-    height  : 245px;
-    left    : 313px;
-    top     : 100%;
+    width   : 2235px;
+    height  : 200px;
+    left    : 316px;
+    top     : 1053.5px;
     background: #363636;
-}*/
+    z-index   : 3;
+}
 
 #idtex {
     position   : absolute;
